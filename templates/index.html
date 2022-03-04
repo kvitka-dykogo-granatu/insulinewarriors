@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code4Ukraine - Insulin Warriors</title>
+    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}" />
+    <!-- <script src="{{ url_for('static', path='/js/gmaps.js') }}"></script> -->
+
+</head>
+
+
+<body style="background-color:white;">
+  
+  
+  <div class="header">
+    <img src="{{ url_for('static', path='/logo.png') }}" alt="logo" />
+    <h1>Insuline Warriors</h1>
+  </div>
+  
+  <br>
+  
+  <div>
+    <center>
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1yyKMC__4a1y-E-z4juRwm4YgTXeYfleL&ehbc=2E312F" width="1080" height="700"></iframe>
+    </center>
+  </div>
+
+</body>
+</html>
